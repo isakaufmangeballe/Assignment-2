@@ -1,0 +1,60 @@
+
+/* Your styles go here */
+body{color:blueviolet;}
+
+// <weight>: Use a value from 200 to 700
+// <uniquifier>: Use a unique and descriptive class name
+
+.stack-sans-text-<uniquifier> {
+  font-family: "Stack Sans Text", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* CSS, which stands for cascading style sheets, are styles you set for your HTML components */
+/* Everything has a default style  (think ugly) and here is how you can modify your style*/
+
+/* class selection*/
+.wrap{
+	width:100%;
+}
+.container{
+	width: 700px;
+	position: relative;
+	margin: 20px auto;
+}
+
+/* Id selection */
+#content-content{
+}
+
+/* Tag selection */
+div{
+}
+
+div.wrap{
+}
+
+.wrap p{
+	font-family: Arial, sans-serif;
+	color: #801;
+	font-size: 14px;
+	line-height: 1.2em;
+}
+img{
+	width: 60%;
+}
+body{
+
+	padding-left:20%;
+	padding-right: 25%;
+	background-color: rosybrown;
+
+}
+
+h1{
+	font-family: Arial, sans-serif;
+	color: #363636;
+	font-size: 50px;
+}
