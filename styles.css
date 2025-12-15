@@ -1,5 +1,4 @@
 
-/* Your styles go here */
 body{color:blueviolet;}
 
 // <weight>: Use a value from 200 to 700
@@ -12,18 +11,6 @@ body{color:blueviolet;}
   font-style: normal;
 }
 
-/* CSS, which stands for cascading style sheets, are styles you set for your HTML components */
-/* Everything has a default style  (think ugly) and here is how you can modify your style*/
-
-/* class selection*/
-.wrap{
-	width:100%;
-}
-.container{
-	width: 700px;
-	position: relative;
-	margin: 20px auto;
-}
 
 /* Id selection */
 #content-content{
@@ -33,12 +20,9 @@ body{color:blueviolet;}
 div{
 }
 
-div.wrap{
-}
-
 .wrap p{
 	font-family: Arial, sans-serif;
-	color: #801;
+	color: #black;
 	font-size: 14px;
 	line-height: 1.2em;
 }
@@ -46,10 +30,9 @@ img{
 	width: 60%;
 }
 body{
-
 	padding-left:20%;
 	padding-right: 25%;
-	background-color: rosybrown;
+	background-color:lightblue;
 
 }
 
@@ -57,4 +40,23 @@ h1{
 	font-family: Arial, sans-serif;
 	color: #363636;
 	font-size: 50px;
+}
+
+.chart-section {
+  margin: 72px 0;
+}
+
+.chart-container {
+  margin: 36px 0;
+}
+
+.chart1 {
+  display: block;  
+  margin: 80px 0;
+}
+
+.chart-caption {
+  margin-top: 12px;
+  font-size: 0.9rem;
+  color: #555;
 }
